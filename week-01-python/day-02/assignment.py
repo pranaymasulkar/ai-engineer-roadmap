@@ -21,3 +21,23 @@ else:
     print(prompt)
 
     print("\n === prompt length ", len(prompt), "charedtor" )
+
+
+# Exercise 1: String manipulation
+# Ask the user for a sentence, remove extra spaces, and print it in uppercase.
+
+sen = input("Enter your thought: ").strip()
+print(sen.upper())
+
+# Exercise 2: Calculate a total
+# Ask for a product price and quantity, convert them to numbers, and calculate the total.
+
+askprice = int(input("What is price of product: "))
+askquanti = int(input("How many quantity: "))
+
+total_ask_price = askprice * askquanti
+print(total_ask_price)
+
+# Exercise 4: Input validation
+# Update the mini project so the learning level accepts Beginner, INTERMEDIATE, and other capitalization variations.
+
